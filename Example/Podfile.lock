@@ -1,0 +1,66 @@
+PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CTMediator (44)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - MBProgressHUD (1.2.0)
+  - PMAPIsKit (0.1.0):
+    - AFNetworking (~> 2.3)
+    - PMToolsKit
+  - PMSpecialKit_Category (0.1.0):
+    - CTMediator
+    - PMAPIsKit
+  - PMToolsKit (0.1.0):
+    - FMDB
+    - MBProgressHUD
+
+DEPENDENCIES:
+  - PMSpecialKit_Category (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - CTMediator
+    - FMDB
+    - MBProgressHUD
+  https://github.com/PMComponent/PMSpace.git:
+    - PMAPIsKit
+    - PMToolsKit
+
+EXTERNAL SOURCES:
+  PMSpecialKit_Category:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  PMAPIsKit: 37e8cca1bf079d26f101bb40057019d6b39f8419
+  PMSpecialKit_Category: 4bc8b505f7d9bca2308e50210a6b6512649a677b
+  PMToolsKit: 80770571fb2fd0036394cea8e5710190fb1157f0
+
+PODFILE CHECKSUM: 1d5527dee2d3b74ad62fd81a3158c0bd29464fbf
+
+COCOAPODS: 1.9.0

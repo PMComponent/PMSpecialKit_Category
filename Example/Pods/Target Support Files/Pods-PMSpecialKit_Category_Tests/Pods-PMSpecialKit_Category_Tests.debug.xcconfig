@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/FMDB" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/PMAPIsKit" "${PODS_CONFIGURATION_BUILD_DIR}/PMSpecialKit_Category" "${PODS_CONFIGURATION_BUILD_DIR}/PMToolsKit"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator/CTMediator.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/FMDB/FMDB.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD/MBProgressHUD.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PMAPIsKit/PMAPIsKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PMSpecialKit_Category/PMSpecialKit_Category.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PMToolsKit/PMToolsKit.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -l"sqlite3" -framework "AFNetworking" -framework "CTMediator" -framework "CoreGraphics" -framework "FMDB" -framework "Foundation" -framework "MBProgressHUD" -framework "MobileCoreServices" -framework "PMAPIsKit" -framework "PMSpecialKit_Category" -framework "PMToolsKit" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
